@@ -1,0 +1,5 @@
+name=input("Enter the name")
+age=int(input("enter the age"))
+print("The name is ",name)
+print("age is",age)
+print("Senior") if age>60 else print("Not senior")
